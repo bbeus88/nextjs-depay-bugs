@@ -12,7 +12,7 @@ export function DepayButton() {
     const DepayReceiver = process.env.NEXT_PUBLIC_DEPAY_RECEIVER_WALLET;
 
     const options = {
-      // currency: 'USD',
+      currency: "USD",
       accept: [
         {
           blockchain: "polygon",
